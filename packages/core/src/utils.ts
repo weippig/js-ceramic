@@ -1,6 +1,6 @@
 import Ajv from 'ajv'
 import addFormats from 'ajv-formats'
-import { Memoize } from 'typescript-memoize'
+import { Memoize } from 'mapmoize'
 
 import { CommitData, CommitType, IpfsApi, StreamUtils } from '@ceramicnetwork/common'
 

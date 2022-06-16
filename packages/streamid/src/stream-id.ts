@@ -7,7 +7,7 @@ import * as codec from '@ipld/dag-cbor'
 import { concat as uint8ArrayConcat } from 'uint8arrays'
 import { STREAMID_CODEC } from './constants.js'
 import { readCidNoThrow, readVarint } from './reading-bytes.js'
-import { Memoize } from 'typescript-memoize'
+import { Memoize } from 'mapmoize'
 import { StreamRef } from './stream-ref.js'
 import { StreamType } from './stream-type.js'
 
