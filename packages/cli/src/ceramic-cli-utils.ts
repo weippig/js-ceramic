@@ -36,7 +36,11 @@ const DEFAULT_DAEMON_CONFIG = DaemonConfig.fromObject({
   ipfs: { mode: IpfsMode.BUNDLED },
   logger: { 'log-level': LogLevel.important, 'log-to-files': false },
   metrics: { 'metrics-exporter-enabled': DEFAULT_METRICS_EXPORTER_ENABLED, 'metrics-port': DEFAULT_METRICS_EXPORTER_PORT },
+  
+  // DEV
   network: { name: Networks.TESTNET_CLAY },
+  //network: { name: Networks.LOCAL },
+  
   node: {},
   'state-store': {
     mode: StateStoreMode.FS,

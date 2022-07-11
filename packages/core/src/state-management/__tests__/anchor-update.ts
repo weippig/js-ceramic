@@ -11,6 +11,7 @@ export async function anchorUpdate(ceramic: Ceramic, stream: Stream): Promise<vo
     )
   )
   const anchorService = ceramic.context.anchorService as InMemoryAnchorService
+  console.log("==about to anchor==")
   await anchorService.anchor()
   await tillAnchored
 }
